@@ -12,5 +12,5 @@ fig_file <- dir(path = "PNG", pattern = "png$")
 
 glue::glue(
   '## ', stringr::str_replace(stringr::str_remove(fig_file, "\\.png$"), "_", " "), '\n\n',
-  '<a href="https://raw.githubusercontent.com/isoverse/cheatsheets/master/PDF/{stringr::str_replace(fig_file, \'png$\',\'pdf\')}"><img src="PNG/{fig_file}" width="600"></a>')
+  '<a href="https://raw.githubusercontent.com/isoverse/cheatsheets/raw/master/PDF/{stringr::str_replace(fig_file, \'png$\',\'pdf\')}"><img src="PNG/{fig_file}" width="600"></a>')
 ```

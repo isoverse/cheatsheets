@@ -1,0 +1,16 @@
+---
+output: github_document
+---
+
+# isoverse cheatsheets
+
+The cheat sheets provide a quick reference for key packages and functionality in the isoverse. They are intended to make it easy to get started and to find the right function names at a quick glance. Click on the links below to download the PDF versions of the cheat sheets.The cheat sheets are released under a creative commons license ([CC0](LICENSE.md)). 
+
+
+```{r, results = "asis", echo = FALSE}
+fig_file <- dir(path = "PNG", pattern = "png$") 
+
+glue::glue(
+  '## ', stringr::str_replace(stringr::str_remove(fig_file, "\\.png$"), "_", " "), '\n\n',
+  '<a href="https://raw.githubusercontent.com/isoverse/cheatsheets/master/PDF/{stringr::str_replace(fig_file, \'png$\',\'pdf$\')}"><img src="PNG/{fig_file}" width="600"></a>')
+```

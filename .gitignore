@@ -1,0 +1,22 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+~$*
+.Spotlight*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# exclude R & Rstudio temp files
+*.utf8.md
+*.knit.md
+.Rproj.user
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# exclude output files
+*.pdf
+*.html

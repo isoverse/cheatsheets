@@ -17,6 +17,3 @@ Thumbs.db
 .Ruserdata
 .Rproj.user/
 
-# exclude output files
-*.pdf
-*.html

@@ -10,4 +10,4 @@ under a creative commons license
 
 ## 0-template
 
-<a href="https://raw.githubusercontent.com/isoverse/cheatsheets/master/PDF/0-template.pdf$"><img src="PNG/0-template.png" width="600"></a>
+<a href="https://raw.githubusercontent.com/isoverse/cheatsheets/master/PDF/0-template.pdf"><img src="PNG/0-template.png" width="600"></a>
